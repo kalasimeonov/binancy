@@ -29,9 +29,22 @@
 		DF2C23452E4368760070ED7F /* binancyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binancyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DF7437132E43FB21004E81E0 /* Exceptions for "binancy" folder in "binancyTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Services/Caching/CacheManager.swift,
+			);
+			target = DF2C233A2E4368760070ED7F /* binancyTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DF2C23302E4368730070ED7F /* binancy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DF7437132E43FB21004E81E0 /* Exceptions for "binancy" folder in "binancyTests" target */,
+			);
 			path = binancy;
 			sourceTree = "<group>";
 		};
