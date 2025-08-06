@@ -11,7 +11,7 @@ import SwiftUI
 struct binancyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BinancyHome()
         }
     }
 }
